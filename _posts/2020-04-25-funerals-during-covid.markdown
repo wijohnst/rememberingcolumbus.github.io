@@ -6,6 +6,8 @@ categories:
 layout: post
 ---
 
+General media stories and information about funerals during COVID-19.
+
 General:
 
 * [WOSU: Coronavirus In Ohio: Less Room For Grieving At Funeral Homes](https://radio.wosu.org/post/coronavirus-ohio-less-room-grieving-funeral-homes#stream/0)
