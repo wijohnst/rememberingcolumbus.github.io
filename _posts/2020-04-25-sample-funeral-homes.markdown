@@ -6,6 +6,7 @@ categories:
 layout: post
 ---
 
+Funeral homes with COVID-19 information.
 
 * [Schoedinger](https://www.schoedinger.com/resources/facts-about-funerals-and-covid-19)
 
