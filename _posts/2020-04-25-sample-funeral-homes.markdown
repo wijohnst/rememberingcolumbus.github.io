@@ -6,5 +6,9 @@ categories:
 layout: post
 ---
 
-Sample Specific Funeral Homes' COVID-19 Info
 
+* [Schoedinger](https://www.schoedinger.com/resources/facts-about-funerals-and-covid-19)
+
+* [Shaw-Davis](https://www.shaw-davis.com/covid-19-information)
+
+* [Newcomer](https://www.newcomercolumbus.com/Blog/6300)
