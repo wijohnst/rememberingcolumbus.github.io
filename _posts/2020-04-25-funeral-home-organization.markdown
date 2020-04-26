@@ -6,6 +6,8 @@ categories:
 layout: post
 ---
 
+General COVID-19 funeral home information. 
+
 * [Ohio Funeral Home Directors Association: COVID-19 Resources](https://ofdaonline.org/aws/OFDA/pt/sp/covid-19/)
 
 * [National Funeral Directors Association - COVID-19](https://www.nfda.org/covid-19)
