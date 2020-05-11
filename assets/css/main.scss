@@ -7,8 +7,36 @@ body {
   margin-bottom: 60px; /* Margin bottom by footer height */
   background-color:#ECF0F6;
   color: #000000;
+  font-family: 'Raleway', serif;
 }
+
 
 .background-white {
   background-color: white;
+}
+
+.main-logo {
+  max-height: 10em;
+}
+
+.secondary-logo {
+  max-height: 4em;
+}
+
+.card-deck {
+  justify-content: center;
+}
+
+.main-title {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  .title-item {
+    flex-grow: 1;
+  }
+}
+
+.title-link {
+  font-size: 3em;
+  color: rgba(0, 0, 0, 0.7);
 }
