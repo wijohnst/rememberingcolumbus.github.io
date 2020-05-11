@@ -25,14 +25,22 @@ body {
 
 .card-deck {
   justify-content: center;
+  flex-wrap: wrap;
+  .card {
+    min-width: 13em;
+  }
 }
 
 .main-title {
   display: flex;
   align-items: center;
   padding: 2rem;
+  margin-bottom: 0;
   .title-item {
     flex-grow: 1;
+  }
+  .three {
+    text-align: right;
   }
 }
 
@@ -40,3 +48,10 @@ body {
   font-size: 3em;
   color: rgba(0, 0, 0, 0.7);
 }
+
+@media (max-width: 768px) {
+  .main-title {
+    .one, .three { display: none; }
+  }
+}
+
