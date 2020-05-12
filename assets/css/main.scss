@@ -7,8 +7,46 @@ body {
   margin-bottom: 60px; /* Margin bottom by footer height */
   background-color:#ECF0F6;
   color: #000000;
+  font-family: 'Raleway', serif;
 }
+
 
 .background-white {
   background-color: white;
 }
+
+
+.card-deck {
+  justify-content: center;
+  flex-wrap: wrap;
+  .card {
+    min-width: 13em;
+  }
+}
+
+.main-title {
+  padding: 2rem;
+  margin-bottom: 0;
+  text-align: center;
+
+  .secondary-logo {
+    float: right;
+    max-height: 4em;
+  }
+
+  .main-logo {
+    max-height: 10em;
+  }
+}
+
+.title-link {
+  font-size: 3em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    .secondary-logo { display: none; }
+  }
+}
+
