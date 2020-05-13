@@ -23,7 +23,7 @@ body {
 }
 
 .main-title {
-  padding: 2rem;
+  padding: 1rem;
   margin-bottom: 0;
   text-align: center;
 
@@ -34,6 +34,7 @@ body {
 
   .main-logo {
     max-height: 10em;
+    min-width: 20em;
   }
 }
 
@@ -80,6 +81,14 @@ body {
 
 .icon-message-text {
   margin-left: 2rem;
+}
+
+.tagline {
+  font-size: 0.8em;
+}
+
+.title-item.one {
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
