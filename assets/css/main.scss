@@ -44,6 +44,30 @@ body {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.resource-list {
+  margin: 2rem 0;
+  li {
+    margin: 1rem 0;
+  }
+}
+
+.resource-box {
+  padding: 1rem 2rem;
+}
+
+.resource-title {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 3rem 0;
+  h2 {
+    padding: 0 0 0 1rem;
+  }
+  i {
+    font-size: 20px;
+    padding-bottom: 7px
+  }
+}
+
 @media (max-width: 768px) {
   .main-title {
     .secondary-logo { display: none; }
