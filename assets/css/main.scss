@@ -40,10 +40,13 @@ a {
   padding: 1rem;
   margin-bottom: 0;
   text-align: center;
+  position: relative;
 
   .secondary-logo {
-    float: right;
     max-height: 4em;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
   }
 
   .main-logo {
