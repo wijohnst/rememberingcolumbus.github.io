@@ -1,11 +1,20 @@
 import React, {useRef, useEffect, useContext, useState } from 'react'
 import styled from 'styled-components'
 
+import { getScreens } from '../../utils/getScreens'
+
 import MemorialContext from './MemorialContext'
 
 const SkyAreaWrapper = styled.div`
-  /* background-color :  lightpink; */
   height: 40vh;
+
+  @media (max-height: ${getScreens('tablet')}){
+    min-height: 60vh;
+  }
+
+  @media (max-height: ${getScreens('mobile')}){
+    min-height: 60vh;
+  }
 `
 
 function getRandomNumber(min, max){

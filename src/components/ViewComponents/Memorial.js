@@ -8,7 +8,6 @@ import CardArea from '../MemorialComponents/CardArea';
 
 const Container = styled.div`
   max-height: 85vh;
-  background-color :  lightpink;
 `
 const MemorialWrapper = styled.div`
   background-color: black;
@@ -35,9 +34,9 @@ export default function Memorial() {
 /* MEMORIAL COMPONENT SHOULD
 
     [ √ ] Import memorialData from MemorialDataContextProvider
-    [   ] Display cards with memorialized person's data (MemorialCards component)
+    [ √ ] Display cards with memorialized person's data (MemorialCards component)
     [ √ ] Display Columbus Skyline (Skyline Component)
-    [   ] Allow user to scroll through the cards
+    [ √ ] Allow user to scroll through the cards
     [   ] Animate transition between cards
     [   ] Animate stars being added to night sky between each card
 */
