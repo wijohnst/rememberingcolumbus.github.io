@@ -1,23 +1,23 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import MemorialContext from './MemorialContext';
 
 import { getMemorialData } from '../../utils/getMemorialData'
 
 export default function AppContextProvider(props) {
-  
-  const [memorialData, setMemorialData] = useState(undefined);
-  //Used to determine which info from memorialData array to display
-  const [memorialTarget, setMemorialTarget] = useState(1); 
 
-  useEffect(() => {
-    console.log('Getting memorial data...');
-    setMemorialData(getMemorialData()); //returns mock data from getMemorialData function
-  },[])
+  const [memorialData] = useState(() => getMemorialData());
+
+  //Used to as index for displaying memorial data @ memorialCard
+  const [memorialTarget, setMemorialTarget] = useState(0); 
+
+  //starsArr is an array that is used to display stars in the sky, each representing a person who has passed; an element is added to the array for each card that the user views
+  const [starsArr, setStarsArr] = useState([]);
 
   return (
     <MemorialContext.Provider value={{
-      data : {value: memorialData, controller: setMemorialTarget},
-      nav : {target : memorialTarget, controller: setMemorialTarget}
+      data : {value: memorialData},
+      nav : {target : memorialTarget, controller: setMemorialTarget},
+      stars : {starsArr: starsArr, setStarsArr: setStarsArr}
     }
     }>
       

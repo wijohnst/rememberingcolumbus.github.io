@@ -1,29 +1,33 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
-
-import MemorialContext from '../MemorialComponents/MemorialContext'
 import SkyArea from '../MemorialComponents/SkyArea';
 
 import SkylineOutline from '../MemorialComponents/skyline.png'
+import CardArea from '../MemorialComponents/CardArea';
 
+const Container = styled.div`
+  max-height: 85vh;
+  background-color :  lightpink;
+`
 const MemorialWrapper = styled.div`
-background-color: black;
+  background-color: black;
   background-image: url(${SkylineOutline});
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
-  min-height: 100vh;
+  min-height: 75vh;
+  max-height: 90vh;
 `
 export default function Memorial() {
   
-  const memorialData = useContext(MemorialContext);
-  
-  console.log(memorialData);
   return (
-    <MemorialWrapper>
-      <SkyArea />
-    </MemorialWrapper>
+    <Container>
+      <MemorialWrapper>
+        <SkyArea />
+      </MemorialWrapper>
+      <CardArea />
+    </Container>
   )
 }
 
@@ -32,7 +36,7 @@ export default function Memorial() {
 
     [ √ ] Import memorialData from MemorialDataContextProvider
     [   ] Display cards with memorialized person's data (MemorialCards component)
-    [   ] Display Columbus Skyline (Skyline Component)
+    [ √ ] Display Columbus Skyline (Skyline Component)
     [   ] Allow user to scroll through the cards
     [   ] Animate transition between cards
     [   ] Animate stars being added to night sky between each card

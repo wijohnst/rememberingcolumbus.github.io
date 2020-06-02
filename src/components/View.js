@@ -50,7 +50,7 @@ export default function View() {
     )
   }else if(view.value === "Memorial"){
     return(
-      <ViewWrapper>
+      <ViewWrapper style={{backgroundColor: "white"}}>
         <MemorialContextProvider>
           <Memorial />
         </MemorialContextProvider>
