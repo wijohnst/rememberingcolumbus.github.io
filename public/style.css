@@ -17,6 +17,22 @@ a:hover{
   color: #ffffff;
 }
 
+button{
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #3300FF;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  box-shadow: 7px 7px 12px rgba(0,0,0,.25);
+  transition: all ease-in-out .25s;
+}
+
+button:hover{
+  box-shadow: none;
+}
+
 i{
   padding: 5px;
   margin: 5px;
